@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Presentacion</title>
+
+	<style>
+		h1 {
+			text-align: center;
+		}
+		h2 {
+			text-decoration: underline;
+		}
+		.center_img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+		body {
+			background-color: grey;
+		}
+		.center_button {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			left: 50%;
+		}
+	</style>
+
+	<script>
+		function showInfoOnClick(){
+			alert("Hello There!\nMy name is Ian Cortez\nEmail: ian.cortez@utec.edu.pe");
+		}
+	</script>
+
+</head>
+
+<body>
+	<section>
+		<h1>Ian Cortez</h1>
+	</section>
+
+
+	<hr />
+
+
+	<section>
+		<img src="imgs/Hello_There.jpg" alt="HelloThere" class="center_img">
+		<section class="center_button">
+			<button onclick="showInfoOnClick()">Hello There</button>
+		</section>
+	</section>
+
+
+	<hr />
+
+
+	<section>
+		<h2>About me</h2>
+
+		<p> My name is <strong>Ian Cortez</strong>. I am a 2nd year studying Computer Science at UTEC in Lima, Peru. On my free 
+		time I usually play videogames, listen to music or play the guitar. Also I really enjoy watching series and anime.
+		Additionally, I am interested in learning more about maths and physics.</p>
+	</section>
+
+
+	<hr />
+
+
+	<section>
+		<h2>Languages and Frameworks</h2>
+
+		<p>	
+			<ul>
+				<li>That I know</li>
+				<ol>
+					<li>C++</li>
+					<li>Golang</li>
+					<li>Python</li>
+					<li>Java</li>
+					<li>JavaScript</li>
+				</ol>
+
+				<li>That I want to learn</li>
+				<ol>
+					<li>C</li>
+					<li>Rust</li>
+					<li>ReactJS, NodeJS and AngularJS</li>
+					<li>HTML and CSS</li>
+				</ol>
+			</ul>
+			
+		</p>	
+	</section>
+
+
+	<hr />
+
+
+	<section>
+		<h2>More about me</h2>
+
+		<p>
+			<ul>
+				<li> Github Page </li>
+				<a href="https://github.com/IanCortez">
+					<img src="imgs/git_hub.png" alt="GitHubPage" class="center_img">
+				</a>
+			</ul>
+		</p>
+	</section>
+</body>
+
+</html>
